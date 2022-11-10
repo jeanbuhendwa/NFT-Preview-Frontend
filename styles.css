@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-decoration: none;
+}
+body {
+    background-color: #0D1B2C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+.main-container {
+    background-color: #192e47;
+    margin: 3rem 0;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #1C2833;
+}
+.main-container .img-container {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-color: hsl(178, 100%, 50%);
+}
+.main-container div #cover-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-color: hsl(178, 100%, 50%);
+}
+.main-container #cover-image:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.main-container h1 {
+    color: white;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.main-container h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.main-container p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.price-container .price {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.price-container .price img{
+    width: 10px;
+}
+.price-container .price h2{
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.price-container .time {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.price-container .time img {
+    width: 10px;
+}
+.price-container .time h3 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+.main-container hr{
+    border: 0.3px solid hsl(215, 51%, 70%);
+    margin: 20px 0;
+} 
+.main-container .profile-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.main-container .profile-container img {
+    width: 30px;
+    border: 1px solid hsl(215, 51%, 70%);
+    border-radius: 100%;
+}
+.main-container .profile-container h2 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.main-container .profile-container h2 a{
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+    transition: all 0.3s ease-in-out;
+}
+.main-container .profile-container h2 a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.attribution { 
+    font-size: 0.8em; 
+    text-align: center;
+    color: white; 
+    margin-top: 80px;
+}
+.attribution a { 
+    color: hsl(215, 51%, 70%); 
+}
